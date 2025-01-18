@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C15710F2D3C443600FC3953 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 4C15710E2D3C443600FC3953 /* RealityKitContent */; };
+		4C1571112D3C443600FC3953 /* kscalehackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1571102D3C443600FC3953 /* kscalehackApp.swift */; };
+		4C1571132D3C443600FC3953 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1571122D3C443600FC3953 /* ContentView.swift */; };
+		4C1571152D3C443600FC3953 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1571142D3C443600FC3953 /* AppModel.swift */; };
+		4C1571172D3C443600FC3953 /* ToggleImmersiveSpaceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1571162D3C443600FC3953 /* ToggleImmersiveSpaceButton.swift */; };
+		4C1571192D3C443600FC3953 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1571182D3C443600FC3953 /* ImmersiveView.swift */; };
+		4C15711B2D3C443800FC3953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C15711A2D3C443800FC3953 /* Assets.xcassets */; };
+		4C15711E2D3C443800FC3953 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C15711D2D3C443800FC3953 /* Preview Assets.xcassets */; };
+		4C1571632D3C471D00FC3953 /* HandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1571622D3C471D00FC3953 /* HandModel.swift */; };
+		4C15716A2D3C4A6200FC3953 /* updateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1571682D3C4A5D00FC3953 /* updateManager.swift */; };
+		4C15716E2D3C4E8E00FC3953 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C15716C2D3C4E8A00FC3953 /* APIManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C1571092D3C443600FC3953 /* kscalehack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kscalehack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C15710D2D3C443600FC3953 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		4C1571102D3C443600FC3953 /* kscalehackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kscalehackApp.swift; sourceTree = "<group>"; };
+		4C1571122D3C443600FC3953 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C1571142D3C443600FC3953 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		4C1571162D3C443600FC3953 /* ToggleImmersiveSpaceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleImmersiveSpaceButton.swift; sourceTree = "<group>"; };
+		4C1571182D3C443600FC3953 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		4C15711A2D3C443800FC3953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C15711D2D3C443800FC3953 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C15711F2D3C443800FC3953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1571622D3C471D00FC3953 /* HandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandModel.swift; sourceTree = "<group>"; };
+		4C1571682D3C4A5D00FC3953 /* updateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateManager.swift; sourceTree = "<group>"; };
+		4C15716C2D3C4E8A00FC3953 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C1571062D3C443600FC3953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C15710F2D3C443600FC3953 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C1571002D3C443600FC3953 = {
+			isa = PBXGroup;
+			children = (
+				4C15710B2D3C443600FC3953 /* kscalehack */,
+				4C15710C2D3C443600FC3953 /* Packages */,
+				4C15710A2D3C443600FC3953 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C15710A2D3C443600FC3953 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C1571092D3C443600FC3953 /* kscalehack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C15710B2D3C443600FC3953 /* kscalehack */ = {
+			isa = PBXGroup;
+			children = (
+				4C1571102D3C443600FC3953 /* kscalehackApp.swift */,
+				4C1571122D3C443600FC3953 /* ContentView.swift */,
+				4C1571142D3C443600FC3953 /* AppModel.swift */,
+				4C1571162D3C443600FC3953 /* ToggleImmersiveSpaceButton.swift */,
+				4C1571622D3C471D00FC3953 /* HandModel.swift */,
+				4C1571182D3C443600FC3953 /* ImmersiveView.swift */,
+				4C1571682D3C4A5D00FC3953 /* updateManager.swift */,
+				4C15716C2D3C4E8A00FC3953 /* APIManager.swift */,
+				4C15711A2D3C443800FC3953 /* Assets.xcassets */,
+				4C15711F2D3C443800FC3953 /* Info.plist */,
+				4C15711C2D3C443800FC3953 /* Preview Content */,
+			);
+			path = kscalehack;
+			sourceTree = "<group>";
+		};
+		4C15710C2D3C443600FC3953 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				4C15710D2D3C443600FC3953 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		4C15711C2D3C443800FC3953 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4C15711D2D3C443800FC3953 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C1571082D3C443600FC3953 /* kscalehack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1571222D3C443800FC3953 /* Build configuration list for PBXNativeTarget "kscalehack" */;
+			buildPhases = (
+				4C1571052D3C443600FC3953 /* Sources */,
+				4C1571062D3C443600FC3953 /* Frameworks */,
+				4C1571072D3C443600FC3953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kscalehack;
+			packageProductDependencies = (
+				4C15710E2D3C443600FC3953 /* RealityKitContent */,
+			);
+			productName = kscalehack;
+			productReference = 4C1571092D3C443600FC3953 /* kscalehack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C1571012D3C443600FC3953 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					4C1571082D3C443600FC3953 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 4C1571042D3C443600FC3953 /* Build configuration list for PBXProject "kscalehack" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C1571002D3C443600FC3953;
+			productRefGroup = 4C15710A2D3C443600FC3953 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C1571082D3C443600FC3953 /* kscalehack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C1571072D3C443600FC3953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C15711E2D3C443800FC3953 /* Preview Assets.xcassets in Resources */,
+				4C15711B2D3C443800FC3953 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C1571052D3C443600FC3953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C15716E2D3C4E8E00FC3953 /* APIManager.swift in Sources */,
+				4C1571172D3C443600FC3953 /* ToggleImmersiveSpaceButton.swift in Sources */,
+				4C15716A2D3C4A6200FC3953 /* updateManager.swift in Sources */,
+				4C1571132D3C443600FC3953 /* ContentView.swift in Sources */,
+				4C1571192D3C443600FC3953 /* ImmersiveView.swift in Sources */,
+				4C1571152D3C443600FC3953 /* AppModel.swift in Sources */,
+				4C1571632D3C471D00FC3953 /* HandModel.swift in Sources */,
+				4C1571112D3C443600FC3953 /* kscalehackApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C1571202D3C443800FC3953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		4C1571212D3C443800FC3953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		4C1571232D3C443800FC3953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kscalehack/Preview Content\"";
+				DEVELOPMENT_TEAM = CATM9F8TCA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pokipokipoki.kscalehack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Debug;
+		};
+		4C1571242D3C443800FC3953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kscalehack/Preview Content\"";
+				DEVELOPMENT_TEAM = CATM9F8TCA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pokipokipoki.kscalehack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C1571042D3C443600FC3953 /* Build configuration list for PBXProject "kscalehack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1571202D3C443800FC3953 /* Debug */,
+				4C1571212D3C443800FC3953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1571222D3C443800FC3953 /* Build configuration list for PBXNativeTarget "kscalehack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1571232D3C443800FC3953 /* Debug */,
+				4C1571242D3C443800FC3953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C15710E2D3C443600FC3953 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4C1571012D3C443600FC3953 /* Project object */;
+}
