@@ -32,11 +32,15 @@ class UpdateHandler {
         Task {
             while true {
                 try? await Task.sleep(nanoseconds: tickFrequency)
+                //print("updating")
+                //print(self.handTracking.latestAnchors.leftHand)
                 if let leftHand = self.handTracking.latestAnchors.leftHand{
                     for joint in HandSkeleton.JointName.allCases{
+                        print(joint.description)
                         guard let tip = leftHand.handSkeleton?.joint(joint) else{
                             continue
                         }
+                        print(tip.anchorFromJointTransform)
                         let location = getlocation(jointloc: leftHand.originFromAnchorTransform, parentloc: tip.anchorFromJointTransform)
                         
                         handModel.leftHandDisplayDictionary[joint.description]?.transform.translation = SIMD3(x: location.x, y: location.y, z: location.z)

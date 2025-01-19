@@ -10,8 +10,6 @@ class HandViewModel: ObservableObject{
     var leftHandDisplayDictionary:[String:Entity] = [:]
     var rightHandDisplayDictionary:[String:Entity] = [:]
     
-
-    
     var left_relative_transform = Transform()
     var right_relative_transform = Transform()
     
